@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>no.imr.nmdapi.web</groupId>
     <artifactId>nmdapi-parent</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>NMDAPI Parent project</name>
     <repositories>
@@ -423,7 +423,7 @@
         <connection>scm:git:git@github.com:Institute-of-Marine-Research-NMD/nmdapi-superpom.git</connection>
         <url>scm:git:git@github.com:Institute-of-Marine-Research-NMD/nmdapi-superpom.git</url>
         <developerConnection>scm:git:git@github.com:Institute-of-Marine-Research-NMD/nmdapi-superpom.git</developerConnection>
-        <tag>nmdapi-parent-0.0.1</tag>
+        <tag>HEAD</tag>
     </scm>
     <distributionManagement>
         <repository>
