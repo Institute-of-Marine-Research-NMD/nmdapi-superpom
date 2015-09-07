@@ -268,9 +268,21 @@
                 <artifactId>spring-security-jwt</artifactId>
                 <version>${spring.security.jwt.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.mockito</groupId>
+                <artifactId>mockito-all</artifactId>
+                <version>1.9.5</version>
+                <scope>test</scope>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
     <dependencies>
+            <dependency>
+                <groupId>org.mockito</groupId>
+                <artifactId>mockito-all</artifactId>
+                <scope>test</scope>
+            </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
@@ -377,7 +389,7 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-    	<build>
+    <build>
         <plugins>
             <plugin>
                 <artifactId>maven-release-plugin</artifactId>
