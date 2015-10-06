@@ -28,7 +28,7 @@
         <slf4j.version>1.7.5</slf4j.version>
         <aspect.version>1.7.4</aspect.version>
         <tomcat.version>7.0.47</tomcat.version>
-        <jaxb.version>2.1.17</jaxb.version>
+        <jaxb.version>2.2.11</jaxb.version>
         <jstl.version>1.2</jstl.version>
         <commons.configuration.version>1.10</commons.configuration.version>
         <jsr250.version>1.0</jsr250.version>
@@ -184,6 +184,12 @@
                 <artifactId>jaxb-impl</artifactId>
                 <version>${jaxb.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.sun.xml.bind</groupId>
+                <artifactId>jaxb-core</artifactId>
+                <version>${jaxb.version}</version>
+            </dependency>
+
 
             <!-- Support for aspects to allow injections. -->
             <dependency>
