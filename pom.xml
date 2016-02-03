@@ -563,24 +563,24 @@
                 </plugins>
             </build>
         </profile>
-	  <profile>
-	    <id>doclint-java8-disable</id>
-	    <activation>
-	      <jdk>[1.8,)</jdk>
-	    </activation>
+        <profile>
+            <id>doclint-java8-disable</id>
+            <activation>
+                <jdk>[1.8,)</jdk>
+            </activation>
 
-	    <build>
-	      <plugins>
-	        <plugin>
-	          <groupId>org.apache.maven.plugins</groupId>
-	          <artifactId>maven-javadoc-plugin</artifactId>
-	          <configuration>
-	            <additionalparam>-Xdoclint:none</additionalparam>
-	          </configuration>
-	        </plugin>
-	      </plugins>
-	    </build>
-	  </profile>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-javadoc-plugin</artifactId>
+                        <configuration>
+                            <additionalparam>-Xdoclint:none</additionalparam>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
     </profiles>
     <scm>
         <connection>scm:git:git@github.com:Institute-of-Marine-Research-NMD/nmdapi-superpom.git</connection>
